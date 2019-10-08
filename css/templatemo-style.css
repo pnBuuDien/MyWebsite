@@ -401,15 +401,7 @@ p {
 #portfolio .project-item {
     display: none;
 }
-#lab1-re{
-    float:left;
-    position: absolute;
-    z-index: 0;
-}
-#lab1-imple{
-    position: relative;
-    z-index: 99;
-}
+
 #portfolio iframe{
     border: none;
  }
