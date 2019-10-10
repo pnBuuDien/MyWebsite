@@ -1,5 +1,6 @@
-.lab1-container h3 {
-    color: #42438f;
+.tab-content .title h3{
+    color: #4344a2;
+    margin-left:45px;
 }
 
 .lab1-container .lab1-re-content {
@@ -11,13 +12,24 @@
     color: black;
     font-size: 16px;
 }
-.lab1-container .lab1-re-content{
 
-}
 .lab1-container .lab1-re-content ul li{
     margin-left:30px;
 }
 .lab1-container .lab1-re-content ul.lab1-li li{
     list-style-type: circle;
+}
+.lab2-container .lab2-re-content {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.lab2-container .lab2-re-content *{
+    color: black;
+    font-size: 16px;
+}
+
+.lab2-container .lab2-re-content ul li{
+    margin-left:30px;
 }
 
