@@ -340,7 +340,9 @@ p {
 .filter-categories ul li.active span {
     color: #f7c552;
 }
-
+#portfolio {
+    padding-bottom: 50px;
+}
 #portoflio .page-section {
     padding: 0px;
 }
