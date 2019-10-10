@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/owl-carousel.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
     <link rel="stylesheet" href="css/lightbox.css">
-    <link rel="stylesheet" href="css/lab1-style.css">
+    <link rel="stylesheet" href="css/labs-style.css">
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
@@ -145,7 +145,6 @@
             <br>
             <div class="group-tabs">
                 <!-- Nav tabs -->
-                <!--                <div class="nav-tabs-box">-->
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#lab1">Lab 1</a>
@@ -163,132 +162,152 @@
                         <a class="nav-link" data-toggle="tab" href="#lab5">Lab 5</a>
                     </li>
                 </ul>
-                <!--                </div>-->
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div id="lab1" class="container tab-pane fade"><br>
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab1-re">Requirement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab1-de">Design</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab1-imple">Implement</a>
-                            </li>
-                        </ul>
-                        <!-- Tab lab1 re de imple content -->
-                        <div class="lab1-container tab-content ">
-                            <div id="lab1-re" class="container tab-pane fade"><br>
-                                <div class="lab1-re-title">
-                                    <h3>Requirement</h3>
-                                </div>
-                                <div class="lab1-re-content">
-                                    <p>
-                                        1. Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ như sinh viên, môn học, giảng
-                                        viên,…
-                                        để
-                                        thiết kế trên phần mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm cho đối
-                                        tượng
-                                        đó.
-                                        <br/>
-                                        <br/>
-
-                                        2. Upload tất cả lên Azure / github trong menu Lab1 theo thứ tự:
-                                    </p>
-                                    <ul>
-                                        <li><strong>Tab Yêu cầu:</strong> copy lại nội dung của phần 1 vào đây (trình bày
+                        <div id="lab1" class="container tab-pane fade"><br>
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab1-re">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab1-de">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab1-imple">Implement</a>
+                                </li>
+                            </ul>
+                            <!-- Tab lab1 content -->
+                            <div class="lab1-container tab-content ">
+                                <div id="lab1-re" class="container tab-pane fade"><br>
+                                    <div class="lab1-re-title title" >
+                                        <h3>Requirement:</h3>
+                                    </div>
+                                    <div class="lab1-re-content ">
+                                        <p>
+                                            1. Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ như sinh viên, môn
+                                            học,
+                                            giảng
+                                            viên,…
+                                            để
+                                            thiết kế trên phần mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
                                             cho
-                                            đẹp).
-                                        </li>
-                                        <li><strong>Tab Thiết kế:</strong> để link tới các file sau đây:</li>
-                                        <li>
-                                            <ul class="lab1-li">
-                                                <li>Thiết kế trên giấy (chụp lại ảnh).</li>
-                                                <li>Thiết kế trên phần mềm thiết kế.</li>
-                                            </ul>
-                                        </li>
-                                        <li>Tab Hiện thực: chuyển tất cả thiết kế ở trên ở trên sang html.</li>
-                                    </ul>
+                                            đối
+                                            tượng
+                                            đó.
+                                            <br/>
+                                            <br/>
+
+                                            2. Upload tất cả lên Azure / github trong menu Lab1 theo thứ tự:
+                                        </p>
+                                        <ul>
+                                            <li><strong>Tab yêu cầu:</strong> copy lại nội dung của phần 1 vào đây
+                                                (trình
+                                                bày
+                                                cho
+                                                đẹp).
+                                            </li>
+                                            <li><strong>Tab thiết kế:</strong> để link tới các file sau đây:</li>
+                                            <li>
+                                                <ul class="lab1-li">
+                                                    <li>Thiết kế trên giấy (chụp lại ảnh).</li>
+                                                    <li>Thiết kế trên phần mềm thiết kế.</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Tab hiện thực:</strong> chuyển tất cả thiết kế ở trên ở trên
+                                                sang html.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div id="lab1-de" class="container tab-pane fade">
+                                    <div class="sketch">
+                                        <h2>Sketch:</h2>
+                                    </div>
+                                    <div class="figma">
+                                        <h2>Figma:</h2>
+                                    </div>
+                                    <div class="download_all">
+                                    </div>
+                                </div>
+                                <div id="lab1-imple" class="container tab-pane fade"><br>
+                                    <iframe src="labs/index.html" height="450px"
+                                            width="100%"></iframe>
                                 </div>
                             </div>
+                        </div>
 
-                            <div id="lab1-de" class="container tab-pane fade">
-                            </div>
-                            <div id="lab1-imple" class="container tab-pane fade"><br>
-                                <iframe src="labs/index.html" height="450px"
-                                        width="100%"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="lab2" class="container tab-pane fade"><br>
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab2-re">Requirement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab2-de">Design</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab2-imple">Implement</a>
-                            </li>
-                        </ul>
-                        <!-- Tab lab2 re de imple content -->
-                        <div class="lab2-container tab-content ">
-                            <div id="lab2-re" class="container tab-pane  fade"><br>
-                                <ul class="nav nav-tabs">
-                                    <li class="nav-item">
-                                        <div class="lab2-re-title">
-                                            <h3>Requirement</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div id="lab2-de" class="container tab-pane fade">
+
+                        <div id="lab2" class="container tab-pane fade"><br>
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab2-re">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab2-de">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab2-imple">Implement</a>
+                                </li>
+                            </ul>
+                            <!-- Tab lab2 content -->
+                            <div class="lab2-container tab-content ">
+                                <div id="lab2-re" class="container tab-pane  fade"><br>
+                                            <div class="lab2-re-title title">
+                                                <h3>Requirement:</h3>
+                                            </div>
+                                            <div class="lab2-re-content">
+                                                <ul>
+                                                    <li><Strong>Bài tập cá nhân: </Strong></li>
+                                                </ul>
+                                            </div>
+                                </div>
+                                <div id="lab2-de" class="container tab-pane fade">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="lab3" class="container tab-pane fade"><br>
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab3-re">Requirement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab3-de">Design</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab3-imple">Implement</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="lab4" class="container tab-pane fade"><br>
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab4-re">Requirement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab4-de">Design</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab4-imple">Implement</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="lab5" class="container tab-pane fade"><br>
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab5-re">Requirement</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab5-de">Design</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#lab5-imple">Implement</a>
-                            </li>
-                        </ul>
-                    </div>
+
+
+                        <div id="lab3" class="container tab-pane fade"><br>
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab3-re">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab3-de">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab3-imple">Implement</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="lab4" class="container tab-pane fade"><br>
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab4-re">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab4-de">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab4-imple">Implement</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="lab5" class="container tab-pane fade"><br>
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab5-re">Requirement</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab5-de">Design</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lab5-imple">Implement</a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </div>
