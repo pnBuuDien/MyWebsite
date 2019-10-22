@@ -2,6 +2,21 @@
     color: #4344a2;
     margin-left: 45px;
 }
+#portfolio .nav{
+    background: #4d7483;
+}
+#portfolio .tab-content{
+    margin-top: -12px;
+}
+
+.nav>li>a{
+    color: white;
+}
+
+.nav>li>a:hover{
+    color: #23527c;
+    background: #f2f2f2;
+}
 
 .lab1-container .lab1-re-content {
     width: 80%;
