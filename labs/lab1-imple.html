@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section id="lab1-imple">
+    <div class="container">
+        <div class="row">
+            <div class="full-width header">
+                <h3>Guess list</h3>
+            </div>
+            <div class="button-box">
+                <button type="button" name="add" class="add" onclick="displayform();document.getElementById('add-form').style.display='block';" >ADD</button>
+                <button type="button" name="del" class="del"onclick="displayform();document.getElementById('del-form').style.display='block';">DEL</button>
+                <button type="button" name="edit" class="edit"onclick="displayform();document.getElementById('edit-form').style.display='block';">EDIT</button>
+                <button type="button" name="search" class="search"onclick="displayform();document.getElementById('search-form').style.display='block';">SEARCH</button>
+            </div>
+            <div class="form-container" id="form-container">
+                <form id="add-form" style="display: block;">
+                    <div class="title"><h4>Add a guess</h4></div><div class="border-top">
+                    <div class="white-line"></div></div>
+                    <div class="input-box">
+                        <input type="text" class="name" id="add-name" placeholder="Name">
+                        <input type="text" class="address" id="add-address" placeholder="Address">
+                        <input type="text" class="phone" id="add-phone" placeholder="Phone number">
+                    </div>
+                    <div class="low-sm">
+                        <button type="confirm" class="btn-confirm">Confirm</button>
+                    </div>
+                </form>
+
+                <form id="del-form">
+                    <div class="title"><h4>Delete</h4></div><div class="border-top">
+                    <div class="white-line"></div></div>
+                    <div class="input-box">
+                        <input type="text" class="name" id="del-name" placeholder="Name">
+                        <input type="text" class="address" id="del-address" placeholder="Address">
+                        <input type="text" class="phone" id="del-phone" placeholder="Phone number">
+                    </div>
+                    <div class="low-sm">
+                        <button type="confirm" class="btn-confirm">Confirm</button>
+                    </div>
+                </form>
+
+                <form id="edit-form">
+                    <div class="title"><h4>Edit</h4></div><div class="border-top">
+                    <div class="white-line"></div></div>
+                    <div class="input-box">
+                        <input type="text" class="name" id="edit-name" placeholder="Name">
+                        <input type="text" class="address" id="edit-address" placeholder="Address">
+                        <input type="text" class="phone" id="edit-phone" placeholder="Phone number">
+                    </div>
+                    <div class="low-sm">
+                        <button type="confirm" class="btn-confirm">Confirm</button>
+                    </div>
+                </form>
+
+                <form id="search-form">
+                    <div class="title"><h4>Search</h4></div><div class="border-top">
+                    <div class="white-line"></div></div>
+                    <div class="input-box">
+                        <input type="text" class="name" id="name" placeholder="Name">
+                        <input type="text" class="address" id="address" placeholder="Address">
+                        <input type="text" class="phone" id="phone" placeholder="Phone number">
+                    </div>
+                    <div class="low-sm">
+                        <button type="confirm" class="btn-confirm">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        function displayform() {
+            document.getElementById('add-form').style.display='none';
+            document.getElementById('edit-form').style.display='none';
+            document.getElementById('del-form').style.display='none';
+            document.getElementById('search-form').style.display='none';
+        }
+    </script>
+</section>
+</body>
+</html>
