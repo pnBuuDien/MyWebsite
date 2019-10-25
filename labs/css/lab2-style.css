@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+}
+
+a {
+    color: #09f;
+    text-decoration: none;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+
+#lab2-user .img-wrapper {
+    width: 771px;
+    border: 1px solid black;
+    margin: 50px auto auto;
+}
+
+#top-nav .nav-wrap .logo {
+    margin-left: 50px;
+}
+
+#top-nav .navbar-nav .search {
+    position: absolute;
+    left: 80%;
+    width: 200px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#top-nav .navbar-nav .icon {
+    color: white;
+    width: 28px;
+    height: 28px;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+#post .title {
+    margin-left: 50px;
+}
+
+#post .vote {
+    margin-left: 50px;
+}
+
+#post ul {
+    float: right;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#post ul li {
+    float: left;
+}
+
+#post ul li .btn-share {
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    height: 34px;
+    background-color: #f4f4f4;
+    line-height: 34px;
+    padding: 0 34px 0 34px;
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+#post ul li .facebook {
+    background-color: #3b5998;
+}
+#post ul li .facebook:hover {
+    background-color: #4c70ba;
+}
+
+#post ul li .pinterest {
+    background: #bd081c;
+}
+#post ul li .pinterest:hover  {
+    background-color: #ee0a23;
+}
+
+#post .img-section img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+#comments .line-dec {
+    background: black;
+    width: 100%;
+    height: 1px;
+}
+
+#comments .textarea-container textarea {
+    background-color: transparent;
+    outline: none;
+    line-height: 20px;
+    padding: 6px 9px;
+    margin: 6px 0;
+    display: block;
+    border: 1px solid #ccc;
+    font: 13px Helvetica Neue,Arial,Helvetica,Geneva,sans-serif;
+    resize: none;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 0;
+    line-height: 1.6em;
+}
+#comments .textarea-container textarea:focus {
+    height: 50px;
+    cursor: text;
+}
+
+
+#comments a.cmnt-btn {
+    color: #fff;
+    background-color: #09f;
+    padding: 9px 20px;
+    border: 1px solid #09f;
+    border-radius: 3px;
+    font: 700 14px/20px Helvetica Neue, Arial, Helvetica, Geneva, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    -webkit-appearance: none;
+}
+
+.person{
+    border: 1px solid #a8a8a8;
+    padding-left: 50px;
+    border-collapse: collapse;
+}
+

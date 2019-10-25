@@ -1,7 +1,13 @@
 .parallax-content{
-    min-height: 65vh;
+    min-height: 19vh;
 }
-
+.baner-content {
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+    background-image: url(../img/banner_bg.jpg);
+    vertical-align: middle;
+}
 
 .tab-content .title h3 {
     color: #4344a2;
