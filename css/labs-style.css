@@ -1,6 +1,7 @@
-.parallax-content{
+.parallax-content {
     min-height: 19vh;
 }
+
 .baner-content {
     width: 100%;
     padding-top: 0;
@@ -13,18 +14,20 @@
     color: #4344a2;
     margin-left: 45px;
 }
-#portfolio .nav{
+
+#portfolio .nav {
     background: #4d7483;
 }
-#portfolio .tab-content{
+
+#portfolio .tab-content {
     margin-top: -12px;
 }
 
-.nav>li>a{
+.nav > li > a {
     color: white;
 }
 
-.nav>li>a:hover{
+.nav > li > a:hover {
     color: #23527c;
     background: #f2f2f2;
 }
@@ -56,10 +59,11 @@
     float: left;
     margin-bottom: 30px;
 }
-.lab1-container #lab1-de  button {
+
+.lab1-container #lab1-de button {
     background: #4d90fe;
     color: #FFFFFF;
-    border: 1px solid rgba(0,0,0,.1)!important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
     text-transform: uppercase;
 }
 
@@ -68,6 +72,7 @@
     width: 500px;
     float: right;
 }
+
 .lab1-container #lab1-de .download-sketch {
     margin-bottom: 30px;
 }
@@ -76,23 +81,26 @@
     margin-top: 200px;
     margin-left: 50px;
 }
+
 .lab1-container #lab1-de .download-design {
     height: 317px;
     width: 570px;
     margin-bottom: 30px;
     float: right;
 }
+
 .lab1-container #lab1-de .download-design button {
     margin-top: 150px;
     margin-left: 126px;
 }
 
-.lab1-container #lab1-de .download-all  {
+.lab1-container #lab1-de .download-all {
     width: 150px;
     height: 35px;
     margin: auto;
     font-size: 16px;
 }
+
 
 .lab2-container .lab2-re-content {
     width: 80%;
@@ -108,5 +116,29 @@
 .lab2-container .lab2-re-content ul.lab2-content li {
     margin-left: 30px;
     list-style-type: circle;
+}
+
+#lab2-de button{
+    width: 150px;
+}
+#lab2-de button.download-all{
+    width: 200px;
+}
+
+#lab2-de .download-sketch{
+    float: right;
+    margin-top: -360px;
+    margin-right: 300px;
+}
+
+#lab2-de .download-design{
+    float: right;
+    margin-top: -450px;
+    margin-right: 300px;
+}
+
+#lab2-de .download-all {
+    margin-top: 50px;
+    text-align: center;
 }
 

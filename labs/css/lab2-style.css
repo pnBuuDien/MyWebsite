@@ -58,6 +58,7 @@ a:hover,a:focus{
     float: right;
     overflow: hidden;
     list-style-type: none;
+    margin-right: 30px;
 }
 
 #post ul li {
