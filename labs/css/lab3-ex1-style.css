@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', arial, sans-serif;
+    color:#ffffff;
 }
 
 body {
@@ -33,3 +34,18 @@ p {
         margin: 0;
     }
 }
+.page-wrapper{
+    margin-top: 50px;
+}
+
+.line-dec{
+    position: relative;
+}
+.article-container{
+    background: black;
+}
+
+.title h1{
+    color: black;
+}
+
