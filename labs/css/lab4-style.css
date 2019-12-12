@@ -27,12 +27,3 @@ p {
 .carousel-inner > .item  p {
     color: #ffffff;
 }
-#contact-us{
-    padding: 15px 0 ;
-}
-
-#sticky-footer {
-    height: 50px;
-    color: #b5b5b5;
-    background: #1e282d;
-}
