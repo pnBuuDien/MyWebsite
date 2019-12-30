@@ -64,12 +64,7 @@ a.nav-link {
     margin-bottom: 30px;
 }
 
-.lab1-container #lab1-de button {
-    background: #4d90fe;
-    color: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, .1) !important;
-    text-transform: uppercase;
-}
+
 
 .lab1-container #lab1-de .download-sketch {
     height: 438px;
@@ -128,7 +123,7 @@ a.nav-link {
 }
 
 #lab2-de button.download-all {
-    width: 200px;
+    width: 180px;
 }
 
 #lab2-de .download-sketch {
@@ -144,7 +139,6 @@ a.nav-link {
 }
 
 #lab2-de .download-all {
-    margin-top: 50px;
     text-align: center;
 }
 
@@ -168,3 +162,38 @@ a.nav-link {
     text-align: center;
 }
 
+.sketch2 {
+    width: 100%;
+    display: inline-block;
+    height: 780px;
+}
+
+.thumb {
+    height: auto;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.download {
+    height: 780px;
+    margin: auto;
+    display:block;
+    position: relative;
+}
+
+.download button{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 380px auto;
+}
+.download-all{
+    width: 180px;
+    height: 35px;
+    margin: auto;
+}
+button.download-all{
+    width: 180px;
+}
